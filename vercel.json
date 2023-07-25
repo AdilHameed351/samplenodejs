@@ -2,5 +2,5 @@
     "version": 2,
     "name": "vercelweb",
     "builds": [{ "src": "app.js", "use": "@vercel/node"}],
-    "routes": [{ "src": "/(.*)", "dset": "app.js"}]
+    "routes": [{ "src": "/(.*)", "dest": "app.js"}]
 }
